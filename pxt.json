@@ -1,0 +1,29 @@
+{
+    "name": "Crocs2.0",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "BLE HID Control": "github:calliope-edu/pxt-blehid#3e315fe8703dda1efc82ca677b17396eaff80990",
+        "datalogger": "*",
+        "bluetooth": "*",
+        "storage": "github:calliope-edu/pxt-storage#a34aec53d1c15fe4d8dbdb96737b3bf059260565",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.10"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.3",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
